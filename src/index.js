@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Form from './Form';
 import Use from './Use';
+import Todolist from './Todolist';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
     <App />
     <Form />
     <Use />
+    <Todolist />
   </React.StrictMode>,
   document.getElementById('root')
 );

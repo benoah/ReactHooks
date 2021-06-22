@@ -24,7 +24,7 @@ function Form() {
         <br></br>
         <br></br>
 
-            <form onSubmit={handleSubmit}>
+            <form className="center" onSubmit={handleSubmit}>
                 <input 
                     placeholder="First Name"
                     name="firstName" 
@@ -37,7 +37,7 @@ function Form() {
                     value={inputData.lastName}
                     onChange={handleChange}
                 />
-                     <br></br>
+                    
                 <button>Add contact</button>
             </form>
             {contacts}

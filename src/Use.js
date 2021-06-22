@@ -18,7 +18,7 @@ export default function Use() {
     }, [count])
     
     return (
-        <div>
+        <div className="center">
             <h1 style={{color: color}}>{count}</h1>
         </div>
     )
